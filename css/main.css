@@ -1,0 +1,36 @@
+a.hover-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.black-trans {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.waves-effect.waves-dark .waves-ripple {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background: url(../img/bg.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blinking {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.black {
+    transition: 0.3s;
+}
+
+.transparent {
+    transition: 0.3s;
+}
