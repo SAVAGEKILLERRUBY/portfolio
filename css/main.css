@@ -1,10 +1,6 @@
 a.hover-button:hover {
-    background-color: white;
-    color: black;
-}
-
-.black-trans {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: grey;
+    color: #2196F3;
 }
 
 .waves-effect.waves-dark .waves-ripple {
@@ -21,8 +17,27 @@ a.hover-button:hover {
     }
 }
 
-.black {
+.grey {
     transition: 0.3s;
+}
+
+.glow-blue {
+    color: #bde1ec;
+    animation: glow-blue 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow-blue {
+    from {
+        text-shadow: 0 0 10px #2196F3, 0 0 20px #2196F3, 0 0 30px #ADE5FC, 0 0 40px #ADE5FC, 0 0 50px #ADE5FC;
+    }
+    to {
+        text-shadow: 0 0 20px #2196F3, 0 0 30px #2196F3, 0 0 40px #ADE5FC, 0 0 50px #ADE5FC, 0 0 60px #ADE5FC;
+    }
+}
+
+.linear-grey {
+    transition: 0.3s;
+    background: linear-gradient(0deg, #303030, #707070);
 }
 
 .transparent {
